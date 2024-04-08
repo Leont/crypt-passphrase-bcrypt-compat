@@ -24,7 +24,7 @@ sub verify_password {
 
 1;
 
-#ABSTRACT: A bcrypt encoder for Crypt::Passphrase
+#ABSTRACT: A bcrypt validator for Crypt::Passphrase
 
 =head1 SYNOPSIS
 
