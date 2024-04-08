@@ -5,7 +5,7 @@ use warnings;
 
 use parent 'Crypt::Passphrase::Validator';
 
-use Crypt::Eksblowfish::Bcrypt qw/bcrypt en_base64/;
+use Crypt::Eksblowfish::Bcrypt qw/bcrypt/;
 
 sub new {
 	my ($class) = @_;
