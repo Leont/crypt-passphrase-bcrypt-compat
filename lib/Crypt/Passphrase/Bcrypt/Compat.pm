@@ -13,13 +13,13 @@ sub new {
 }
 
 sub accepts_hash {
-	my ($hash) = @_;
+	my ($self, $hash) = @_;
 	return $hash =~ /^\$2a?\$/;
 }
 
 sub verify_password {
 	my ($class, $password, $hash) = @_;
-	return bcrypt($password, $hash) eq $hash;
+	$class->secure_compat(bcrypt($password, $hash), $hash);
 }
 
 1;

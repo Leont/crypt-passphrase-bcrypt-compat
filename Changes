@@ -1,6 +1,7 @@
 Revision history for Crypt-Passphrase-Bcrypt-Compat
 
 {{$NEXT}}
+          - Correct argument passing to accepts_hash
 
 0.002     2024-04-08 16:33:08+02:00 Europe/Brussels
           - Fix incorrect abstract
