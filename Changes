@@ -1,6 +1,7 @@
 Revision history for Crypt-Passphrase-Bcrypt-Compat
 
 {{$NEXT}}
+          - Fix typo in secure_compare
 
 0.003     2024-05-05 20:57:34+02:00 Europe/Brussels
           - Correct argument passing to accepts_hash

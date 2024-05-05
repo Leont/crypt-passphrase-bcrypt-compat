@@ -19,7 +19,7 @@ sub accepts_hash {
 
 sub verify_password {
 	my ($class, $password, $hash) = @_;
-	$class->secure_compat(bcrypt($password, $hash), $hash);
+	$class->secure_compare(bcrypt($password, $hash), $hash);
 }
 
 1;
